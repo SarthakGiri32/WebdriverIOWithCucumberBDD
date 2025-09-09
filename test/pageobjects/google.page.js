@@ -1,6 +1,6 @@
 import { $, expect } from '@wdio/globals';
 import Page from './page';
-import GoogleSearchPageElements from '../pageelements/GoogleSearch.pageelements';
+import GoogleSearchPageElements from '../pageelements/GoogleSearchPage';
 
 /**
  * sub page containing specific selectors and methods for google.com
