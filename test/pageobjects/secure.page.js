@@ -1,6 +1,6 @@
 import { $, expect } from '@wdio/globals';
 import Page from './page';
-import SecurePageElements from '../pageelements/Herokuappsecure.pageelements';
+import SecurePageElements from '../pageelements/HerokuappSecurePage';
 
 /**
  * sub page containing specific selectors and methods for a specific page

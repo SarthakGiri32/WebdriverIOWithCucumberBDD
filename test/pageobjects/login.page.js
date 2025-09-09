@@ -1,6 +1,6 @@
 import { $ } from '@wdio/globals';
 import Page from './page';
-import LoginPageElements from '../pageelements/Herokuapplogin.pageelements';
+import LoginPageElements from '../pageelements/HerokuappLoginPage';
 
 /**
  * sub page containing specific selectors and methods for a specific page
