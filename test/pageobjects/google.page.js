@@ -1,4 +1,4 @@
-import { $, browser, expect } from '@wdio/globals';
+import { $, expect } from '@wdio/globals';
 import Page from './page';
 import GoogleSearchPageElements from '../pageelements/GoogleSearch.pageelements';
 
@@ -34,7 +34,6 @@ class GooglePage extends Page {
      * @param {string} inputSearchQuery 
      */
     async enterGoogleSearchQuery (inputSearchQuery) {
-        await browser.pause(1000);
         await this.inputSearchField.setValue(inputSearchQuery);
         await this.buttonSubmit.click();
     }
